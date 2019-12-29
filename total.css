@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.indent{text-indent:8em;}
+.indent2{text-indent: 10em;}
+.center{text-align: center;}
+.strong{font-weight:23px;color:darkred}
+.ptitle{font-size: 30px;text-align:center;font-family:Times, Cambria, "Times New Roman"}
+.p2{font-style: italic;text-align: center}
+.pworks{font-weight: 500;font-style: italic; font-family: Cambria, Times, "Times New Roman";font-size: 24px;}
+.red{color:darkred;}
+.nav a.begina{text-decoration:none;color:darkred;font-weight: bolder;font-size:23px;}
+a.beginb{text-decoration:none;color:darkred;font-weight: bolder;font-size:21px;}
+h1,h2,h3,h4{font-family:'华文楷体,楷体,宋体';color:#2F4F4F;}
+h1{font-size: 40px;}
+h2{font-size: 25px;}
+h3{font-size: 21px;}
+h4{font-size: 20px;}
+p.title1{font-size: 22px;font-weight:bolder;}
+p.describe1{display: inline-block;font-weight:bolder;color:red; font-size:18px;}
+p.describe2{display: inline-block;font-weight:bolder;color:dodgerblue; font-size:18px;}
+p.describe3{display: inline-block;font-weight:bolder;color:red; font-size:16px;}
+p.describe4{display: inline-block;font-weight:bolder;color:dodgerblue; font-size:16px;}
+
+body{
+font-size: 20px;
+background-color:#FDF5E6;
+color:#2F4F4F;
+background-attachment: fixed;
+}
+.nav{
+	width:40%;
+	height: 26px;
+	padding-left: 200px;
+	padding-right: -150px;
+	text-align: center;
+	font-size: 18px;
+}
+.fudong{
+ margin-left:110px;
+ padding: 5px;
+ text-align:center;
+ float:left;
+}
+
+.fudong:hover{
+  text-align:center;
+  margin-left:110px;
+  width:80px;
+  height:26px;
+  background-color:darkgreen;
+}
+.nav a:hover{
+	color: white;
+	text-align: center;
+}

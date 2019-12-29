@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body,p,ul,li{
+	margin:0;
+	padding: 0;
+}
+
+.divtriangle{
+	width:0px;
+	height:0px;
+	margin-left: 400px;
+	border:10px solid transparent;
+	border-top-color: darkred;
+}
+		
+.div1{
+	width: 1150px;
+	height: 150px;
+	border:3px none #2F4F4F;
+	margin:0px auto;
+	margin-bottom: 90px;
+	margin-top: 10px;
+	padding:30px;
+}
+
+.div2{
+	width: 1150px;
+	height: 35px;
+	border:3px dashed darkred;
+	margin:0px auto;
+	margin-bottom: 25px;
+	margin-top: 40px;
+	padding:30px;
+}
+
+.div3{
+	width: 1150px;
+	height: 860px;
+	border:3px dashed #2F4F4F;
+	margin:0px auto;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	padding:30px;
+}
+
+.div4{
+	width: 1150px;
+	height: 420px;
+	border:3px dashed darkred;
+	margin:0px auto;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	padding:30px;
+}
+
+.div5{
+	width: 1150px;
+	height: 600px;
+	border:3px dashed #2F4F4F;
+	margin:0px auto;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	padding:30px;
+}
+
+.div6{
+	width: 1150px;
+	height: 500px;
+	border:3px dashed #2F4F4F;
+	margin:0px auto;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	padding:30px;
+}
+
+.l1{
+	height:30px;
+	line-height:30px;
+	list-style-image: url('images/list.jpg');
+	border-bottom: 1px solid darkred;
+}
+
+ul.works{
+	width:1200px;
+	height:220px;
+	margin:100px auto;
+}
+
+li.works{
+	display:inline-block;
+	width:320px;
+	height:360px;
+	padding-top:20px;
+	padding-left:25px;
+	padding-right: 5px;
+	margin-left:20px ;
+	background-color:antiquewhite;
+}
+
+div.ghost{
+	width:50px;
+	height: 250px;
+	margin:14px;
+	padding:14px;
+}
+
+ul.ghostb{
+	width: 500px;
+    height: 60px;
+    margin: 70px 113px;
+}
+
+li.ghosta{
+	display:inline-block;
+	list-style: none;
+    height: 40px;
+	width:40px;
+    margin-bottom: 5px;
+    background-image: url('images/bg.png');
+}
+
+li.first{
+	background-position:-80px -200px;
+}
+
+li.second{
+	background-position: 0 -200px;
+}
+
+li.third{
+	background-position: 0 -240px;
+}
+
+li.fourth{
+	background-position: 0 -320px;
+}
+
+li.fifth{
+	background-position: 0px -120px;
+}
+
+div.often{
+	display: inline-block;
+	padding:15px 0px 0 26px; 
+	border-style:dotted;
+	border-color:darkolivegreen;
+	width:330px;
+	height:380px;
+	margin-left:12px;
+	margin-top:40px;
+}
+
+
+
+
